@@ -31,3 +31,24 @@
     
     
 }
+.tit
+{
+    color:white ;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.profinfo p
+{
+    color:black;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.profinfo
+{
+    height: 400px;/*縦*/
+}
+
+
+
