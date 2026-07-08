@@ -46,7 +46,7 @@
 {
     height: 400px;/*縦*/
 }
-.gm1info p
+.gm1info p,.gm2info p
 {
     color:black;
     font-size: 20px;
@@ -60,6 +60,14 @@
     display: block;
     margin: 0 auto;
 }
+.gm2info img
+{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
 
 
 
