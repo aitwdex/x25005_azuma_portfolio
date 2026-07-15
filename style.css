@@ -40,7 +40,7 @@
     font-family: "Yusei Magic", sans-serif;
     font-weight: 400;
     font-style: normal;
-    scroll-snap-align: start(20);
+    scroll-snap-align: start();
 }
 .profinfo p
 {
@@ -98,6 +98,7 @@
     width:100%;
     background-image: url(0101.png);
     background-position: center;
+    background-size:cover;/*サイズ*/
     font-family: "Yusei Magic", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -118,6 +119,7 @@
     background-image: url(0505.png);
     background-position: center;/*背景の位置設定*/
     background-size:cover;
+    
 }
 .gm2info
 {
@@ -130,6 +132,16 @@
      background-image: url(0303.png);
     background-position: center;/*背景の位置設定*/
     background-size:cover;/*サイズ*/
+}
+.container
+{
+    height: 100vh;
+    overflow: auto;/*スクロール許可*/
+    scroll-snap-type: y mandatory;/*方向指定*/
+}
+.fs, #hero,.sns
+{
+    scroll-snap-align: start;
 }
 
 
