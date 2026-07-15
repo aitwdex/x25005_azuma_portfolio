@@ -10,19 +10,19 @@
 
     /*width: 300px;*/
     height: 300px;
-    display: block;
-    margin: 0 auto;
-    padding-top: 200px;
+    display: block;/*中央よせ*/
+    margin: 0 auto;/*左右の余白を均等に*/
+    padding-top: 200px;/*要素の内側の上方向に余白*/
     
 }
 #hero p
 {
-     font-size: 40px;
-    text-align: center;
+     font-size: 40px;/*フォントのサイズ*/
+    text-align: center;/*テキスト中央揃え*/
     color:#FFCCCC;
     font-family: "Yusei Magic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 400;/*フォント太さ*/
+    font-style: normal;/*斜体にしない*/
 }
 .fs
 {
@@ -141,7 +141,7 @@
 }
 .fs, #hero,.sns
 {
-    scroll-snap-align: start;
+    scroll-snap-align: start;/*スクロールスナップ*/
 }
 
 
